@@ -3,11 +3,11 @@
 
 
 
-**Description:**
+## Description:
 Removes stickybombs if they are placed within a (default: 150 units) radius of the other team's spawn door.  
  The sticky-camping player will also be shown a hint message asking them to stop.  
 
-**Cvars:**  
+## Cvars:  
 -   **spawn_sticky_removal**
     -   Plugin Version
 -   **sticky_break_distance**
@@ -15,16 +15,13 @@ Removes stickybombs if they are placed within a (default: 150 units) radius of t
     -   Default: 150
     -   [These stickies are aprox 150-200 units from the spawn.](http://screencast.com/t/X6qUZIhvR)
 
-**Install Instructions:**  
-1.  Place  **NoStickySpawn****.smx**  into your addons/sourcemod/plugins/ folder.
+## Install Instructions:
+1.  Place  **NoStickySpawn.smx**  into your addons/sourcemod/plugins/ folder.
 
-**Notes:**
+## Notes:
 This plugin uses the func_respawnroomvisualizer entity to detect locations.  
 If your map does not have visualizers on the spawn doors, this plugin will not work.
 
-**ToDo:**  
--   Cache spawn room entity indexes to optimize looping
-
-**Version History:**
+## Version History:
 -   **v1.0.0**
     -   Initial Release
